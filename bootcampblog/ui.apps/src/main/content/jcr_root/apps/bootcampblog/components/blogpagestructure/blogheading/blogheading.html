@@ -1,0 +1,18 @@
+
+<sly
+	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+	data-sly-call="${clientlib.all @ categories='bootcampblog.site'}" />
+
+<div class="row">
+        <div class="col-md-8 blog-main">
+
+          <div class="blog-post">
+<h2 class="blog-post-title">${properties.posttitle}</h2>
+<p class="blog-post-meta">
+	${properties.postdate} by <a href="${properties.link}">${properties.postmeta}</a>
+</p>
+<br>
+
+</div>
+</div>
+</div>

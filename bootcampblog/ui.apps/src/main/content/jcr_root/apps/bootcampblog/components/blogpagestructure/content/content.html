@@ -1,0 +1,10 @@
+
+<sly
+	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+	data-sly-call="${clientlib.all @ categories='bootcampblog.site'}" />
+
+<div class="blog-post">
+
+	<p>${properties.contentdata @context = 'html'}</p>
+
+</div>

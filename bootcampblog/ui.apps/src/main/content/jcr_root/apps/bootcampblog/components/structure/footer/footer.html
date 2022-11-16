@@ -1,0 +1,31 @@
+<sly
+	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+	data-sly-call="${clientlib.all @ categories='bootcampblog.site'}" />
+<p class="align-center">
+	<a href="homepage.html#">Back to top</a>
+</p>
+<footer class="blog-footer">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 ">
+			<div class="footer__block">
+				<a target="" href="${properties.homelink}.html" aria-label="PwC office locations">${properties.hometext}</a>
+				</t>
+				<a target="" href="${properties.blogslink}.html" aria-label="PwC office locations">${properties.blogstext}</a>
+			</div>
+		</div>
+	</div>
+	<p>${properties.footerdesc}</p>
+</footer>
+
+<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="assets/js/vendor/holder.min.js"></script>
+	<script>
+		Holder.addTheme('thumb', {
+			bg : '#55595c',
+			fg : '#eceeef',
+			text : 'Thumbnail'
+		});
+	</script>
